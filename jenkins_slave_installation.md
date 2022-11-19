@@ -1,9 +1,5 @@
 # +++++ JENKINS-MASTER SETUP +++++
 
-
-#### `**** Please Like & Subscribe My Channel To Motivate Me ****`
-
-
 #### Install Java  Prerequisite
 ```
 $ sudo su
