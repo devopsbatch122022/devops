@@ -87,9 +87,7 @@ Jenkins Dashboard > Manage Jenkins > Manage nodes and clouds > New node
                                                                     - Node name
                                                                     - Permanent Agent 
                                                                     - Create
-
-
-
+                                                                    
 Node
    - Name : slave
    - Description : slave
