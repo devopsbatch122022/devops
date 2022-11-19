@@ -87,13 +87,13 @@ Jenkins Dashboard > Manage Jenkins > Manage nodes and clouds > New node
                                                                     - Node name
                                                                     - Permanent Agent 
                                                                     - Create
-                                                                    
+
 Node
-   - Name : slave
-   - Description : slave
+   - Name : dev-jenkins-slave/prod-jenkins-slave
+   - Description : dev-jenkins-slave/prod-jenkins-slave
    - Number of executors : 1
    - Remote root directory : /home/ubuntu
-   - Labels : slave
+   - Labels : dev-jenkins-slave/prod-jenkins-slave
    - Usage : Use this node as much as possible
    - Launch method : Launch agents via SSH
    - Host : 172.31.20.122  (Private_IP_Add)
@@ -102,8 +102,8 @@ Node
                        - Domain: default
                        - Kind : SSH Usernme with private key
                                           - Scope : default
-                                          - ID : dev-jenkins-slave
-                                          - Description : dev-jenkins-slave
+                                          - ID : dev-jenkins-slave/prod-jenkins-slave
+                                          - Description : dev-jenkins-slave/prod-jenkins-slave
                                           - Username : ubuntu
                                           - Private Key > Add > Copy pem file content
                                           - Add                                          
