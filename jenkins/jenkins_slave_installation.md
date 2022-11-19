@@ -67,6 +67,8 @@ $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 # +++++ JENKINS-SLAVE SETUP +++++
 
+#### Launch 4 EC2 instances & Provide prod label on 2 servers & stg label on 2 server. So will get high availability  & durabllity with the setup 
+
 #### Install Java  Prerequisite
 ```
 $ sudo su
