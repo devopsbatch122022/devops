@@ -1,4 +1,4 @@
-# ++++++++++++++ JENKINS-MASTER SETUP ++++++++++++++
+# +++++ JENKINS-MASTER SETUP +++++
 
 
 #### `**** Please Like & Subscribe My Channel To Motivate Me ****`
@@ -68,7 +68,7 @@ $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 <br />
 
 
-# ++++++++++++++ JENKINS-SLAVE SETUP ++++++++++++++
+# +++++ JENKINS-SLAVE SETUP +++++
 
 
 
