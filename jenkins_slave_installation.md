@@ -1,4 +1,4 @@
-# JENKINS INSTALLATION ON UBUNTU
+# JENKINS-MASTER SETUP
 
 
 #### `**** Please Like & Subscribe My Channel To Motivate Me ****`
@@ -67,9 +67,8 @@ $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 <br />
 
-#### `**** Please Like & Subscribe My Channel To Motivate Me ****`
 
+# JENKINS-SLAVE SETUP
 
-We'll provide DevOps real time project in upcoming video in this channel. So please subscribe my channel.
 
 ## `*************************   EOF   *************************`
