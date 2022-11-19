@@ -3,9 +3,10 @@
 #### Install Java  Prerequisite
 ```
 $ sudo su
+$ cd
 $ sudo apt update
 $ hostname
-$ hostnamectl set-hostname jenkins
+$ hostnamectl set-hostname jenkins-master
 $ bash
 $ java -version
 $ apt-get install openjdk-11-jdk -y
@@ -66,7 +67,26 @@ $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 # +++++ JENKINS-SLAVE SETUP +++++
 
+#### Install Java  Prerequisite
+```
+$ sudo su
+$ cd
+$ sudo apt update
+$ hostname
+$ hostnamectl set-hostname jenkins-slave-prod
+$ bash
+$ java -version
+$ apt-get install openjdk-11-jdk -y
+$ java -version
+```
 
+
+# +++++ ON JENKINS-MASTER NODE GUI +++++
+```
+Dashboard > Manage Jenkins > Manage nodes and clouds > New node 
+- Node name
+- Permanent Agent > Create
+```
 
 
 ## `*************************   EOF   *************************`
