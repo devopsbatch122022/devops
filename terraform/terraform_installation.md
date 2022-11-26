@@ -1,4 +1,4 @@
-# +++++ TERRAFORM INSTALLTION +++++
+# +++++ TERRAFORM  INSTALLATION +++++
 
 #### Update Ubuntu packages
 ```
