@@ -6,7 +6,10 @@ provider "aws" {
   access_key = "my-access-key"
   secret_key = "my-secret-key"
 }
+```
 
+```
+$ terraform init
 ```
 
 #### ++++++++++++  Addition  +++++++++++++++
@@ -30,4 +33,10 @@ resource "aws_instance" "web_server" {
     Name = "my-web_server"
   }
 }
+```
+
+```
+$ terraform plan
+$ terraform apply              ## -auto-approve
+$ terraform destroy            ## -auto-approve
 ```
